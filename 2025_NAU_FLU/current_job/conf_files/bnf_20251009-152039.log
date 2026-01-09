@@ -1,0 +1,537 @@
+2025-10-09 15:20:39,684 pybnf.pybnf     INFO     MainProcess Running PyBNF v1.1.9
+2025-10-09 15:20:39,684 pybnf.pybnf     INFO     MainProcess Loading configuration file: Arizona.conf
+2025-10-09 15:20:39,809 pybnf.config    WARNING  MainProcess Ignoring unused key step_size for fitting algorithm de
+2025-10-09 15:20:39,809 pybnf.config    WARNING  MainProcess Ignoring unused key burn_in for fitting algorithm de
+2025-10-09 15:20:39,809 pybnf.config    WARNING  MainProcess Ignoring unused key adaptive for fitting algorithm de
+2025-10-09 15:20:39,809 pybnf.config    WARNING  MainProcess Ignoring unused key sample_every for fitting algorithm de
+2025-10-09 15:20:39,811 pybnf.config    INFO     MainProcess Checking to make sure bng_command is appropriately set
+2025-10-09 15:20:40,056 pybnf.config    INFO     MainProcess Loaded variables
+2025-10-09 15:20:43,112 pybnf.pybnf     INFO     MainProcess Output directory already exists... querying user for overwrite permission
+2025-10-09 15:20:46,945 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Simulations
+2025-10-09 15:20:46,946 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results
+2025-10-09 15:20:46,947 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Initialize
+2025-10-09 15:20:46,947 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/FailedSimLogs
+2025-10-09 15:20:46,947 pybnf.pybnf     INFO     MainProcess Deleted old file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/alg_backup.bp
+2025-10-09 15:20:47,201 pybnf.algorithms INFO     MainProcess Output for network generation of model Arizona logged in /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Initialize/Arizona_gen_net.log
+2025-10-09 15:20:47,201 pybnf.cluster   INFO     MainProcess Initializing the Cluster
+2025-10-09 15:20:47,202 pybnf.cluster   INFO     MainProcess Initializing dask Client with dask v2023.4.1, distributed v2023.4.1
+2025-10-09 15:20:47,202 pybnf.cluster   INFO     MainProcess Creating a local client manually set to 6 workers
+2025-10-09 15:20:50,353 pybnf.algorithms INFO     MainProcess Submitting initial set of 15 Jobs
+2025-10-09 15:20:50,949 pybnf.algorithms INFO     MainProcess Adding Result gen0ind2 to Trajectory with score 2717.5589
+2025-10-09 15:20:50,966 pybnf.algorithms INFO     MainProcess Adding Result gen0ind0 to Trajectory with score 2304.7123
+2025-10-09 15:20:50,970 pybnf.algorithms INFO     MainProcess Adding Result gen0ind5 to Trajectory with score 809.4407
+2025-10-09 15:20:50,970 pybnf.algorithms INFO     MainProcess Adding Result gen0ind3 to Trajectory with score 1436.0957
+2025-10-09 15:20:51,044 pybnf.algorithms INFO     MainProcess Adding Result gen0ind1 to Trajectory with score 2004.0610
+2025-10-09 15:20:51,048 pybnf.algorithms INFO     MainProcess Adding Result gen0ind4 to Trajectory with score 439.8573
+2025-10-09 15:20:51,418 pybnf.algorithms INFO     MainProcess Adding Result gen0ind11 to Trajectory with score 2265.9022
+2025-10-09 15:20:51,421 pybnf.algorithms INFO     MainProcess Adding Result gen0ind7 to Trajectory with score 1558.7190
+2025-10-09 15:20:51,462 pybnf.algorithms INFO     MainProcess Adding Result gen0ind10 to Trajectory with score 1129.9832
+2025-10-09 15:20:51,477 pybnf.algorithms INFO     MainProcess Adding Result gen0ind6 to Trajectory with score 2539.5091
+2025-10-09 15:20:51,482 pybnf.algorithms INFO     MainProcess Adding Result gen0ind8 to Trajectory with score 2574.2666
+2025-10-09 15:20:51,488 pybnf.algorithms INFO     MainProcess Adding Result gen0ind9 to Trajectory with score 1842.7415
+2025-10-09 15:20:51,753 pybnf.algorithms INFO     MainProcess Adding Result gen0ind14 to Trajectory with score 1221.6695
+2025-10-09 15:20:51,793 pybnf.algorithms INFO     MainProcess Adding Result gen0ind12 to Trajectory with score 2801.4683
+2025-10-09 15:20:51,806 pybnf.algorithms INFO     MainProcess Adding Result gen0ind13 to Trajectory with score 1517.8596
+2025-10-09 15:20:51,818 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:51,818 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:20:52,294 pybnf.algorithms INFO     MainProcess Adding Result gen1ind0 to Trajectory with score 1209.1751
+2025-10-09 15:20:52,319 pybnf.algorithms INFO     MainProcess Adding Result gen1ind5 to Trajectory with score 1924.0531
+2025-10-09 15:20:52,350 pybnf.algorithms INFO     MainProcess Adding Result gen1ind1 to Trajectory with score 2287.2404
+2025-10-09 15:20:52,351 pybnf.algorithms INFO     MainProcess Adding Result gen1ind3 to Trajectory with score 2470.8102
+2025-10-09 15:20:52,352 pybnf.algorithms INFO     MainProcess Adding Result gen1ind4 to Trajectory with score 1593.9255
+2025-10-09 15:20:52,393 pybnf.algorithms INFO     MainProcess Adding Result gen1ind2 to Trajectory with score 2413.3560
+2025-10-09 15:20:52,739 pybnf.algorithms INFO     MainProcess Adding Result gen1ind6 to Trajectory with score 1151.2404
+2025-10-09 15:20:52,778 pybnf.algorithms INFO     MainProcess Adding Result gen1ind11 to Trajectory with score 884.9860
+2025-10-09 15:20:52,791 pybnf.algorithms INFO     MainProcess Adding Result gen1ind10 to Trajectory with score 2575.5746
+2025-10-09 15:20:52,794 pybnf.algorithms INFO     MainProcess Adding Result gen1ind9 to Trajectory with score 294.0934
+2025-10-09 15:20:52,817 pybnf.algorithms INFO     MainProcess Adding Result gen1ind7 to Trajectory with score 1121.3856
+2025-10-09 15:20:52,826 pybnf.algorithms INFO     MainProcess Adding Result gen1ind8 to Trajectory with score 2596.0674
+2025-10-09 15:20:53,108 pybnf.algorithms INFO     MainProcess Adding Result gen1ind13 to Trajectory with score 1568.1107
+2025-10-09 15:20:53,120 pybnf.algorithms INFO     MainProcess Adding Result gen1ind12 to Trajectory with score 800.5956
+2025-10-09 15:20:53,132 pybnf.algorithms INFO     MainProcess Adding Result gen1ind14 to Trajectory with score 2556.9368
+2025-10-09 15:20:53,142 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:53,142 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:20:53,651 pybnf.algorithms INFO     MainProcess Adding Result gen2ind2 to Trajectory with score 1041.9707
+2025-10-09 15:20:53,670 pybnf.algorithms INFO     MainProcess Adding Result gen2ind1 to Trajectory with score 885.0142
+2025-10-09 15:20:53,679 pybnf.algorithms INFO     MainProcess Adding Result gen2ind0 to Trajectory with score 1229.2679
+2025-10-09 15:20:53,679 pybnf.algorithms INFO     MainProcess Adding Result gen2ind4 to Trajectory with score 1039.0242
+2025-10-09 15:20:53,682 pybnf.algorithms INFO     MainProcess Adding Result gen2ind3 to Trajectory with score 2553.7911
+2025-10-09 15:20:53,698 pybnf.algorithms INFO     MainProcess Adding Result gen2ind5 to Trajectory with score 1649.9189
+2025-10-09 15:20:54,115 pybnf.algorithms INFO     MainProcess Adding Result gen2ind7 to Trajectory with score 2056.1365
+2025-10-09 15:20:54,126 pybnf.algorithms INFO     MainProcess Adding Result gen2ind11 to Trajectory with score 2281.1054
+2025-10-09 15:20:54,139 pybnf.algorithms INFO     MainProcess Adding Result gen2ind9 to Trajectory with score 960.8285
+2025-10-09 15:20:54,139 pybnf.algorithms INFO     MainProcess Adding Result gen2ind10 to Trajectory with score 2413.3538
+2025-10-09 15:20:54,139 pybnf.algorithms INFO     MainProcess Adding Result gen2ind6 to Trajectory with score 935.8497
+2025-10-09 15:20:54,154 pybnf.algorithms INFO     MainProcess Adding Result gen2ind8 to Trajectory with score 1082.2694
+2025-10-09 15:20:54,459 pybnf.algorithms INFO     MainProcess Adding Result gen2ind13 to Trajectory with score 681.7057
+2025-10-09 15:20:54,472 pybnf.algorithms INFO     MainProcess Adding Result gen2ind12 to Trajectory with score 1164.6488
+2025-10-09 15:20:54,503 pybnf.algorithms INFO     MainProcess Adding Result gen2ind14 to Trajectory with score 1427.5652
+2025-10-09 15:20:54,513 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:54,514 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:20:55,038 pybnf.algorithms INFO     MainProcess Adding Result gen3ind0 to Trajectory with score 1211.9075
+2025-10-09 15:20:55,040 pybnf.algorithms INFO     MainProcess Adding Result gen3ind2 to Trajectory with score 416.6331
+2025-10-09 15:20:55,048 pybnf.algorithms INFO     MainProcess Adding Result gen3ind4 to Trajectory with score 1063.2311
+2025-10-09 15:20:55,053 pybnf.algorithms INFO     MainProcess Adding Result gen3ind3 to Trajectory with score 1161.6580
+2025-10-09 15:20:55,063 pybnf.algorithms INFO     MainProcess Adding Result gen3ind1 to Trajectory with score 443.7067
+2025-10-09 15:20:55,065 pybnf.algorithms INFO     MainProcess Adding Result gen3ind5 to Trajectory with score 1178.2908
+2025-10-09 15:20:55,500 pybnf.algorithms INFO     MainProcess Adding Result gen3ind6 to Trajectory with score 882.4895
+2025-10-09 15:20:55,505 pybnf.algorithms INFO     MainProcess Adding Result gen3ind10 to Trajectory with score 293.6518
+2025-10-09 15:20:55,505 pybnf.algorithms INFO     MainProcess Adding Result gen3ind8 to Trajectory with score 868.1556
+2025-10-09 15:20:55,516 pybnf.algorithms INFO     MainProcess Adding Result gen3ind11 to Trajectory with score 891.1845
+2025-10-09 15:20:55,522 pybnf.algorithms INFO     MainProcess Adding Result gen3ind7 to Trajectory with score 885.2970
+2025-10-09 15:20:55,522 pybnf.algorithms INFO     MainProcess Adding Result gen3ind9 to Trajectory with score 1400.3951
+2025-10-09 15:20:55,825 pybnf.algorithms INFO     MainProcess Adding Result gen3ind13 to Trajectory with score 297.3735
+2025-10-09 15:20:55,847 pybnf.algorithms INFO     MainProcess Adding Result gen3ind14 to Trajectory with score 286.0819
+2025-10-09 15:20:55,868 pybnf.algorithms INFO     MainProcess Adding Result gen3ind12 to Trajectory with score 1092.4895
+2025-10-09 15:20:55,882 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:55,882 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:20:56,358 pybnf.algorithms INFO     MainProcess Adding Result gen4ind0 to Trajectory with score 928.8533
+2025-10-09 15:20:56,391 pybnf.algorithms INFO     MainProcess Adding Result gen4ind2 to Trajectory with score 849.7325
+2025-10-09 15:20:56,404 pybnf.algorithms INFO     MainProcess Adding Result gen4ind4 to Trajectory with score 889.1994
+2025-10-09 15:20:56,405 pybnf.algorithms INFO     MainProcess Adding Result gen4ind5 to Trajectory with score 386.9866
+2025-10-09 15:20:56,420 pybnf.algorithms INFO     MainProcess Adding Result gen4ind3 to Trajectory with score 803.8348
+2025-10-09 15:20:56,435 pybnf.algorithms INFO     MainProcess Adding Result gen4ind1 to Trajectory with score 286.1148
+2025-10-09 15:20:56,814 pybnf.algorithms INFO     MainProcess Adding Result gen4ind6 to Trajectory with score 297.3686
+2025-10-09 15:20:56,843 pybnf.algorithms INFO     MainProcess Adding Result gen4ind8 to Trajectory with score 861.2967
+2025-10-09 15:20:56,856 pybnf.algorithms INFO     MainProcess Adding Result gen4ind11 to Trajectory with score 316.7204
+2025-10-09 15:20:56,857 pybnf.algorithms INFO     MainProcess Adding Result gen4ind10 to Trajectory with score 293.8348
+2025-10-09 15:20:56,870 pybnf.algorithms INFO     MainProcess Adding Result gen4ind9 to Trajectory with score 320.0783
+2025-10-09 15:20:56,878 pybnf.algorithms INFO     MainProcess Adding Result gen4ind7 to Trajectory with score 960.1522
+2025-10-09 15:20:57,144 pybnf.algorithms INFO     MainProcess Adding Result gen4ind12 to Trajectory with score 792.2887
+2025-10-09 15:20:57,163 pybnf.algorithms INFO     MainProcess Adding Result gen4ind13 to Trajectory with score 290.4388
+2025-10-09 15:20:57,177 pybnf.algorithms INFO     MainProcess Adding Result gen4ind14 to Trajectory with score 388.8751
+2025-10-09 15:20:57,186 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:57,187 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:20:57,704 pybnf.algorithms INFO     MainProcess Adding Result gen5ind1 to Trajectory with score 838.3297
+2025-10-09 15:20:57,708 pybnf.algorithms INFO     MainProcess Adding Result gen5ind0 to Trajectory with score 935.2701
+2025-10-09 15:20:57,722 pybnf.algorithms INFO     MainProcess Adding Result gen5ind3 to Trajectory with score 328.1735
+2025-10-09 15:20:57,733 pybnf.algorithms INFO     MainProcess Adding Result gen5ind4 to Trajectory with score 921.5952
+2025-10-09 15:20:57,733 pybnf.algorithms INFO     MainProcess Adding Result gen5ind2 to Trajectory with score 288.4531
+2025-10-09 15:20:57,792 pybnf.algorithms INFO     MainProcess Adding Result gen5ind5 to Trajectory with score 298.6930
+2025-10-09 15:20:58,170 pybnf.algorithms INFO     MainProcess Adding Result gen5ind10 to Trajectory with score 322.9004
+2025-10-09 15:20:58,179 pybnf.algorithms INFO     MainProcess Adding Result gen5ind8 to Trajectory with score 327.7011
+2025-10-09 15:20:58,185 pybnf.algorithms INFO     MainProcess Adding Result gen5ind9 to Trajectory with score 296.0641
+2025-10-09 15:20:58,205 pybnf.algorithms INFO     MainProcess Adding Result gen5ind6 to Trajectory with score 290.9652
+2025-10-09 15:20:58,215 pybnf.algorithms INFO     MainProcess Adding Result gen5ind7 to Trajectory with score 833.5458
+2025-10-09 15:20:58,277 pybnf.algorithms INFO     MainProcess Adding Result gen5ind11 to Trajectory with score 310.8588
+2025-10-09 15:20:58,529 pybnf.algorithms INFO     MainProcess Adding Result gen5ind13 to Trajectory with score 793.4074
+2025-10-09 15:20:58,534 pybnf.algorithms INFO     MainProcess Adding Result gen5ind12 to Trajectory with score 285.9564
+2025-10-09 15:20:58,552 pybnf.algorithms INFO     MainProcess Adding Result gen5ind14 to Trajectory with score 396.4102
+2025-10-09 15:20:58,563 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:58,563 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:20:59,022 pybnf.algorithms INFO     MainProcess Adding Result gen6ind0 to Trajectory with score 797.7314
+2025-10-09 15:20:59,073 pybnf.algorithms INFO     MainProcess Adding Result gen6ind1 to Trajectory with score 352.6730
+2025-10-09 15:20:59,079 pybnf.algorithms INFO     MainProcess Adding Result gen6ind3 to Trajectory with score 479.7031
+2025-10-09 15:20:59,101 pybnf.algorithms INFO     MainProcess Adding Result gen6ind5 to Trajectory with score 922.6888
+2025-10-09 15:20:59,116 pybnf.algorithms INFO     MainProcess Adding Result gen6ind2 to Trajectory with score 286.3477
+2025-10-09 15:20:59,120 pybnf.algorithms INFO     MainProcess Adding Result gen6ind4 to Trajectory with score 864.7196
+2025-10-09 15:20:59,476 pybnf.algorithms INFO     MainProcess Adding Result gen6ind6 to Trajectory with score 285.4067
+2025-10-09 15:20:59,488 pybnf.algorithms INFO     MainProcess Adding Result gen6ind7 to Trajectory with score 835.7671
+2025-10-09 15:20:59,539 pybnf.algorithms INFO     MainProcess Adding Result gen6ind11 to Trajectory with score 287.2878
+2025-10-09 15:20:59,545 pybnf.algorithms INFO     MainProcess Adding Result gen6ind9 to Trajectory with score 458.0794
+2025-10-09 15:20:59,570 pybnf.algorithms INFO     MainProcess Adding Result gen6ind10 to Trajectory with score 833.5458
+2025-10-09 15:20:59,572 pybnf.algorithms INFO     MainProcess Adding Result gen6ind8 to Trajectory with score 834.0634
+2025-10-09 15:20:59,846 pybnf.algorithms INFO     MainProcess Adding Result gen6ind12 to Trajectory with score 327.6538
+2025-10-09 15:20:59,851 pybnf.algorithms INFO     MainProcess Adding Result gen6ind13 to Trajectory with score 292.8785
+2025-10-09 15:20:59,870 pybnf.algorithms INFO     MainProcess Adding Result gen6ind14 to Trajectory with score 289.7908
+2025-10-09 15:20:59,880 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:20:59,881 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:00,407 pybnf.algorithms INFO     MainProcess Adding Result gen7ind2 to Trajectory with score 290.5264
+2025-10-09 15:21:00,407 pybnf.algorithms INFO     MainProcess Adding Result gen7ind5 to Trajectory with score 465.4178
+2025-10-09 15:21:00,413 pybnf.algorithms INFO     MainProcess Adding Result gen7ind0 to Trajectory with score 287.0024
+2025-10-09 15:21:00,418 pybnf.algorithms INFO     MainProcess Adding Result gen7ind1 to Trajectory with score 823.4055
+2025-10-09 15:21:00,427 pybnf.algorithms INFO     MainProcess Adding Result gen7ind3 to Trajectory with score 293.3201
+2025-10-09 15:21:00,472 pybnf.algorithms INFO     MainProcess Adding Result gen7ind4 to Trajectory with score 307.2548
+2025-10-09 15:21:00,854 pybnf.algorithms INFO     MainProcess Adding Result gen7ind6 to Trajectory with score 285.9914
+2025-10-09 15:21:00,869 pybnf.algorithms INFO     MainProcess Adding Result gen7ind8 to Trajectory with score 293.5174
+2025-10-09 15:21:00,873 pybnf.algorithms INFO     MainProcess Adding Result gen7ind11 to Trajectory with score 284.2656
+2025-10-09 15:21:00,882 pybnf.algorithms INFO     MainProcess Adding Result gen7ind9 to Trajectory with score 288.2845
+2025-10-09 15:21:00,887 pybnf.algorithms INFO     MainProcess Adding Result gen7ind7 to Trajectory with score 289.3214
+2025-10-09 15:21:00,913 pybnf.algorithms INFO     MainProcess Adding Result gen7ind10 to Trajectory with score 837.9003
+2025-10-09 15:21:01,170 pybnf.algorithms INFO     MainProcess Adding Result gen7ind14 to Trajectory with score 295.3672
+2025-10-09 15:21:01,187 pybnf.algorithms INFO     MainProcess Adding Result gen7ind12 to Trajectory with score 290.4926
+2025-10-09 15:21:01,189 pybnf.algorithms INFO     MainProcess Adding Result gen7ind13 to Trajectory with score 284.1207
+2025-10-09 15:21:01,199 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:01,199 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:01,712 pybnf.algorithms INFO     MainProcess Adding Result gen8ind0 to Trajectory with score 285.4499
+2025-10-09 15:21:01,739 pybnf.algorithms INFO     MainProcess Adding Result gen8ind2 to Trajectory with score 288.3456
+2025-10-09 15:21:01,755 pybnf.algorithms INFO     MainProcess Adding Result gen8ind4 to Trajectory with score 295.8446
+2025-10-09 15:21:01,767 pybnf.algorithms INFO     MainProcess Adding Result gen8ind1 to Trajectory with score 289.2092
+2025-10-09 15:21:01,769 pybnf.algorithms INFO     MainProcess Adding Result gen8ind5 to Trajectory with score 291.1944
+2025-10-09 15:21:01,775 pybnf.algorithms INFO     MainProcess Adding Result gen8ind3 to Trajectory with score 300.2643
+2025-10-09 15:21:02,171 pybnf.algorithms INFO     MainProcess Adding Result gen8ind6 to Trajectory with score 284.4572
+2025-10-09 15:21:02,209 pybnf.algorithms INFO     MainProcess Adding Result gen8ind8 to Trajectory with score 317.5893
+2025-10-09 15:21:02,222 pybnf.algorithms INFO     MainProcess Adding Result gen8ind9 to Trajectory with score 292.0984
+2025-10-09 15:21:02,222 pybnf.algorithms INFO     MainProcess Adding Result gen8ind11 to Trajectory with score 298.8527
+2025-10-09 15:21:02,227 pybnf.algorithms INFO     MainProcess Adding Result gen8ind10 to Trajectory with score 284.2656
+2025-10-09 15:21:02,227 pybnf.algorithms INFO     MainProcess Adding Result gen8ind7 to Trajectory with score 296.8712
+2025-10-09 15:21:02,508 pybnf.algorithms INFO     MainProcess Adding Result gen8ind12 to Trajectory with score 290.4299
+2025-10-09 15:21:02,521 pybnf.algorithms INFO     MainProcess Adding Result gen8ind13 to Trajectory with score 282.9856
+2025-10-09 15:21:02,542 pybnf.algorithms INFO     MainProcess Adding Result gen8ind14 to Trajectory with score 289.8459
+2025-10-09 15:21:02,552 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:02,552 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:03,074 pybnf.algorithms INFO     MainProcess Adding Result gen9ind0 to Trajectory with score 295.5414
+2025-10-09 15:21:03,075 pybnf.algorithms INFO     MainProcess Adding Result gen9ind3 to Trajectory with score 293.3175
+2025-10-09 15:21:03,076 pybnf.algorithms INFO     MainProcess Adding Result gen9ind2 to Trajectory with score 285.3155
+2025-10-09 15:21:03,087 pybnf.algorithms INFO     MainProcess Adding Result gen9ind5 to Trajectory with score 287.4033
+2025-10-09 15:21:03,088 pybnf.algorithms INFO     MainProcess Adding Result gen9ind4 to Trajectory with score 289.3051
+2025-10-09 15:21:03,088 pybnf.algorithms INFO     MainProcess Adding Result gen9ind1 to Trajectory with score 293.7079
+2025-10-09 15:21:03,528 pybnf.algorithms INFO     MainProcess Adding Result gen9ind9 to Trajectory with score 293.3201
+2025-10-09 15:21:03,535 pybnf.algorithms INFO     MainProcess Adding Result gen9ind7 to Trajectory with score 294.7594
+2025-10-09 15:21:03,540 pybnf.algorithms INFO     MainProcess Adding Result gen9ind6 to Trajectory with score 288.9679
+2025-10-09 15:21:03,546 pybnf.algorithms INFO     MainProcess Adding Result gen9ind10 to Trajectory with score 286.0819
+2025-10-09 15:21:03,549 pybnf.algorithms INFO     MainProcess Adding Result gen9ind11 to Trajectory with score 286.0615
+2025-10-09 15:21:03,549 pybnf.algorithms INFO     MainProcess Adding Result gen9ind8 to Trajectory with score 290.4995
+2025-10-09 15:21:03,855 pybnf.algorithms INFO     MainProcess Adding Result gen9ind14 to Trajectory with score 290.9395
+2025-10-09 15:21:03,890 pybnf.algorithms INFO     MainProcess Adding Result gen9ind13 to Trajectory with score 284.4969
+2025-10-09 15:21:03,897 pybnf.algorithms INFO     MainProcess Adding Result gen9ind12 to Trajectory with score 289.5778
+2025-10-09 15:21:03,909 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:03,909 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:04,414 pybnf.algorithms INFO     MainProcess Adding Result gen10ind0 to Trajectory with score 282.9375
+2025-10-09 15:21:04,414 pybnf.algorithms INFO     MainProcess Adding Result gen10ind5 to Trajectory with score 286.0436
+2025-10-09 15:21:04,432 pybnf.algorithms INFO     MainProcess Adding Result gen10ind1 to Trajectory with score 287.9233
+2025-10-09 15:21:04,436 pybnf.algorithms INFO     MainProcess Adding Result gen10ind2 to Trajectory with score 286.0411
+2025-10-09 15:21:04,447 pybnf.algorithms INFO     MainProcess Adding Result gen10ind3 to Trajectory with score 281.6284
+2025-10-09 15:21:04,461 pybnf.algorithms INFO     MainProcess Adding Result gen10ind4 to Trajectory with score 284.2656
+2025-10-09 15:21:04,878 pybnf.algorithms INFO     MainProcess Adding Result gen10ind7 to Trajectory with score 284.7720
+2025-10-09 15:21:04,888 pybnf.algorithms INFO     MainProcess Adding Result gen10ind9 to Trajectory with score 293.3745
+2025-10-09 15:21:04,905 pybnf.algorithms INFO     MainProcess Adding Result gen10ind10 to Trajectory with score 291.6485
+2025-10-09 15:21:04,914 pybnf.algorithms INFO     MainProcess Adding Result gen10ind11 to Trajectory with score 284.2645
+2025-10-09 15:21:04,929 pybnf.algorithms INFO     MainProcess Adding Result gen10ind6 to Trajectory with score 288.8835
+2025-10-09 15:21:04,933 pybnf.algorithms INFO     MainProcess Adding Result gen10ind8 to Trajectory with score 283.6445
+2025-10-09 15:21:05,241 pybnf.algorithms INFO     MainProcess Adding Result gen10ind12 to Trajectory with score 289.1572
+2025-10-09 15:21:05,253 pybnf.algorithms INFO     MainProcess Adding Result gen10ind13 to Trajectory with score 286.0921
+2025-10-09 15:21:05,256 pybnf.algorithms INFO     MainProcess Adding Result gen10ind14 to Trajectory with score 289.0441
+2025-10-09 15:21:05,273 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:05,274 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:05,721 pybnf.algorithms INFO     MainProcess Adding Result gen11ind5 to Trajectory with score 284.7740
+2025-10-09 15:21:05,738 pybnf.algorithms INFO     MainProcess Adding Result gen11ind0 to Trajectory with score 284.2656
+2025-10-09 15:21:05,763 pybnf.algorithms INFO     MainProcess Adding Result gen11ind2 to Trajectory with score 286.9918
+2025-10-09 15:21:05,800 pybnf.algorithms INFO     MainProcess Adding Result gen11ind3 to Trajectory with score 284.1797
+2025-10-09 15:21:05,800 pybnf.algorithms INFO     MainProcess Adding Result gen11ind4 to Trajectory with score 281.6284
+2025-10-09 15:21:05,801 pybnf.algorithms INFO     MainProcess Adding Result gen11ind1 to Trajectory with score 282.9294
+2025-10-09 15:21:06,171 pybnf.algorithms INFO     MainProcess Adding Result gen11ind11 to Trajectory with score 286.0436
+2025-10-09 15:21:06,243 pybnf.algorithms INFO     MainProcess Adding Result gen11ind6 to Trajectory with score 283.3792
+2025-10-09 15:21:06,245 pybnf.algorithms INFO     MainProcess Adding Result gen11ind9 to Trajectory with score 281.3127
+2025-10-09 15:21:06,253 pybnf.algorithms INFO     MainProcess Adding Result gen11ind10 to Trajectory with score 281.8701
+2025-10-09 15:21:06,254 pybnf.algorithms INFO     MainProcess Adding Result gen11ind7 to Trajectory with score 281.6207
+2025-10-09 15:21:06,276 pybnf.algorithms INFO     MainProcess Adding Result gen11ind8 to Trajectory with score 284.4436
+2025-10-09 15:21:06,544 pybnf.algorithms INFO     MainProcess Adding Result gen11ind12 to Trajectory with score 287.2274
+2025-10-09 15:21:06,561 pybnf.algorithms INFO     MainProcess Adding Result gen11ind13 to Trajectory with score 287.7713
+2025-10-09 15:21:06,597 pybnf.algorithms INFO     MainProcess Adding Result gen11ind14 to Trajectory with score 284.2667
+2025-10-09 15:21:06,607 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:06,607 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:07,127 pybnf.algorithms INFO     MainProcess Adding Result gen12ind0 to Trajectory with score 285.8598
+2025-10-09 15:21:07,127 pybnf.algorithms INFO     MainProcess Adding Result gen12ind4 to Trajectory with score 281.2453
+2025-10-09 15:21:07,134 pybnf.algorithms INFO     MainProcess Adding Result gen12ind1 to Trajectory with score 285.3189
+2025-10-09 15:21:07,134 pybnf.algorithms INFO     MainProcess Adding Result gen12ind3 to Trajectory with score 285.9564
+2025-10-09 15:21:07,149 pybnf.algorithms INFO     MainProcess Adding Result gen12ind2 to Trajectory with score 281.3988
+2025-10-09 15:21:07,158 pybnf.algorithms INFO     MainProcess Adding Result gen12ind5 to Trajectory with score 281.2449
+2025-10-09 15:21:07,526 pybnf.algorithms INFO     MainProcess Adding Result gen12ind10 to Trajectory with score 283.0766
+2025-10-09 15:21:07,580 pybnf.algorithms INFO     MainProcess Adding Result gen12ind6 to Trajectory with score 284.2667
+2025-10-09 15:21:07,597 pybnf.algorithms INFO     MainProcess Adding Result gen12ind7 to Trajectory with score 281.8701
+2025-10-09 15:21:07,602 pybnf.algorithms INFO     MainProcess Adding Result gen12ind9 to Trajectory with score 281.1037
+2025-10-09 15:21:07,604 pybnf.algorithms INFO     MainProcess Adding Result gen12ind11 to Trajectory with score 285.9593
+2025-10-09 15:21:07,610 pybnf.algorithms INFO     MainProcess Adding Result gen12ind8 to Trajectory with score 284.7081
+2025-10-09 15:21:07,901 pybnf.algorithms INFO     MainProcess Adding Result gen12ind12 to Trajectory with score 283.5516
+2025-10-09 15:21:07,903 pybnf.algorithms INFO     MainProcess Adding Result gen12ind13 to Trajectory with score 285.5785
+2025-10-09 15:21:07,917 pybnf.algorithms INFO     MainProcess Adding Result gen12ind14 to Trajectory with score 285.3853
+2025-10-09 15:21:07,938 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:07,938 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:08,416 pybnf.algorithms INFO     MainProcess Adding Result gen13ind3 to Trajectory with score 281.4072
+2025-10-09 15:21:08,427 pybnf.algorithms INFO     MainProcess Adding Result gen13ind0 to Trajectory with score 282.1005
+2025-10-09 15:21:08,454 pybnf.algorithms INFO     MainProcess Adding Result gen13ind1 to Trajectory with score 281.3080
+2025-10-09 15:21:08,454 pybnf.algorithms INFO     MainProcess Adding Result gen13ind2 to Trajectory with score 280.9772
+2025-10-09 15:21:08,464 pybnf.algorithms INFO     MainProcess Adding Result gen13ind5 to Trajectory with score 281.5852
+2025-10-09 15:21:08,468 pybnf.algorithms INFO     MainProcess Adding Result gen13ind4 to Trajectory with score 282.8560
+2025-10-09 15:21:08,860 pybnf.algorithms INFO     MainProcess Adding Result gen13ind9 to Trajectory with score 284.7146
+2025-10-09 15:21:08,880 pybnf.algorithms INFO     MainProcess Adding Result gen13ind6 to Trajectory with score 281.4823
+2025-10-09 15:21:08,896 pybnf.algorithms INFO     MainProcess Adding Result gen13ind8 to Trajectory with score 284.1917
+2025-10-09 15:21:08,908 pybnf.algorithms INFO     MainProcess Adding Result gen13ind11 to Trajectory with score 281.8590
+2025-10-09 15:21:08,915 pybnf.algorithms INFO     MainProcess Adding Result gen13ind7 to Trajectory with score 281.3988
+2025-10-09 15:21:08,918 pybnf.algorithms INFO     MainProcess Adding Result gen13ind10 to Trajectory with score 283.3666
+2025-10-09 15:21:09,199 pybnf.algorithms INFO     MainProcess Adding Result gen13ind13 to Trajectory with score 281.5872
+2025-10-09 15:21:09,228 pybnf.algorithms INFO     MainProcess Adding Result gen13ind14 to Trajectory with score 282.2487
+2025-10-09 15:21:09,246 pybnf.algorithms INFO     MainProcess Adding Result gen13ind12 to Trajectory with score 283.8082
+2025-10-09 15:21:09,259 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:09,260 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:09,716 pybnf.algorithms INFO     MainProcess Adding Result gen14ind0 to Trajectory with score 282.0584
+2025-10-09 15:21:09,778 pybnf.algorithms INFO     MainProcess Adding Result gen14ind2 to Trajectory with score 283.5452
+2025-10-09 15:21:09,801 pybnf.algorithms INFO     MainProcess Adding Result gen14ind3 to Trajectory with score 282.4685
+2025-10-09 15:21:09,810 pybnf.algorithms INFO     MainProcess Adding Result gen14ind5 to Trajectory with score 281.5387
+2025-10-09 15:21:09,811 pybnf.algorithms INFO     MainProcess Adding Result gen14ind1 to Trajectory with score 281.7141
+2025-10-09 15:21:09,815 pybnf.algorithms INFO     MainProcess Adding Result gen14ind4 to Trajectory with score 281.1396
+2025-10-09 15:21:10,170 pybnf.algorithms INFO     MainProcess Adding Result gen14ind6 to Trajectory with score 281.7921
+2025-10-09 15:21:10,173 pybnf.algorithms INFO     MainProcess Adding Result gen14ind8 to Trajectory with score 281.5852
+2025-10-09 15:21:10,178 pybnf.algorithms INFO     MainProcess Adding Result gen14ind10 to Trajectory with score 281.8548
+2025-10-09 15:21:10,231 pybnf.algorithms INFO     MainProcess Adding Result gen14ind9 to Trajectory with score 282.3030
+2025-10-09 15:21:10,232 pybnf.algorithms INFO     MainProcess Adding Result gen14ind11 to Trajectory with score 281.3228
+2025-10-09 15:21:10,242 pybnf.algorithms INFO     MainProcess Adding Result gen14ind7 to Trajectory with score 281.2359
+2025-10-09 15:21:10,498 pybnf.algorithms INFO     MainProcess Adding Result gen14ind12 to Trajectory with score 282.0948
+2025-10-09 15:21:10,503 pybnf.algorithms INFO     MainProcess Adding Result gen14ind13 to Trajectory with score 281.9238
+2025-10-09 15:21:10,558 pybnf.algorithms INFO     MainProcess Adding Result gen14ind14 to Trajectory with score 281.6272
+2025-10-09 15:21:10,568 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:10,568 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:11,092 pybnf.algorithms INFO     MainProcess Adding Result gen15ind5 to Trajectory with score 281.4721
+2025-10-09 15:21:11,098 pybnf.algorithms INFO     MainProcess Adding Result gen15ind1 to Trajectory with score 281.3885
+2025-10-09 15:21:11,104 pybnf.algorithms INFO     MainProcess Adding Result gen15ind4 to Trajectory with score 281.4778
+2025-10-09 15:21:11,112 pybnf.algorithms INFO     MainProcess Adding Result gen15ind3 to Trajectory with score 281.9745
+2025-10-09 15:21:11,112 pybnf.algorithms INFO     MainProcess Adding Result gen15ind2 to Trajectory with score 281.1031
+2025-10-09 15:21:11,131 pybnf.algorithms INFO     MainProcess Adding Result gen15ind0 to Trajectory with score 281.5573
+2025-10-09 15:21:11,542 pybnf.algorithms INFO     MainProcess Adding Result gen15ind11 to Trajectory with score 281.5833
+2025-10-09 15:21:11,562 pybnf.algorithms INFO     MainProcess Adding Result gen15ind8 to Trajectory with score 282.6233
+2025-10-09 15:21:11,563 pybnf.algorithms INFO     MainProcess Adding Result gen15ind9 to Trajectory with score 282.2590
+2025-10-09 15:21:11,563 pybnf.algorithms INFO     MainProcess Adding Result gen15ind7 to Trajectory with score 281.3505
+2025-10-09 15:21:11,566 pybnf.algorithms INFO     MainProcess Adding Result gen15ind6 to Trajectory with score 282.3880
+2025-10-09 15:21:11,569 pybnf.algorithms INFO     MainProcess Adding Result gen15ind10 to Trajectory with score 281.3468
+2025-10-09 15:21:11,869 pybnf.algorithms INFO     MainProcess Adding Result gen15ind12 to Trajectory with score 281.1407
+2025-10-09 15:21:11,878 pybnf.algorithms INFO     MainProcess Adding Result gen15ind13 to Trajectory with score 282.4129
+2025-10-09 15:21:11,891 pybnf.algorithms INFO     MainProcess Adding Result gen15ind14 to Trajectory with score 281.0947
+2025-10-09 15:21:11,901 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:11,901 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:12,350 pybnf.algorithms INFO     MainProcess Adding Result gen16ind0 to Trajectory with score 280.7706
+2025-10-09 15:21:12,413 pybnf.algorithms INFO     MainProcess Adding Result gen16ind2 to Trajectory with score 281.4093
+2025-10-09 15:21:12,424 pybnf.algorithms INFO     MainProcess Adding Result gen16ind1 to Trajectory with score 281.8453
+2025-10-09 15:21:12,442 pybnf.algorithms INFO     MainProcess Adding Result gen16ind3 to Trajectory with score 281.3977
+2025-10-09 15:21:12,444 pybnf.algorithms INFO     MainProcess Adding Result gen16ind4 to Trajectory with score 281.5852
+2025-10-09 15:21:12,446 pybnf.algorithms INFO     MainProcess Adding Result gen16ind5 to Trajectory with score 281.0526
+2025-10-09 15:21:12,841 pybnf.algorithms INFO     MainProcess Adding Result gen16ind6 to Trajectory with score 281.1502
+2025-10-09 15:21:12,855 pybnf.algorithms INFO     MainProcess Adding Result gen16ind8 to Trajectory with score 281.2261
+2025-10-09 15:21:12,873 pybnf.algorithms INFO     MainProcess Adding Result gen16ind7 to Trajectory with score 281.1883
+2025-10-09 15:21:12,879 pybnf.algorithms INFO     MainProcess Adding Result gen16ind10 to Trajectory with score 281.5868
+2025-10-09 15:21:12,884 pybnf.algorithms INFO     MainProcess Adding Result gen16ind9 to Trajectory with score 281.3100
+2025-10-09 15:21:12,886 pybnf.algorithms INFO     MainProcess Adding Result gen16ind11 to Trajectory with score 282.0740
+2025-10-09 15:21:13,179 pybnf.algorithms INFO     MainProcess Adding Result gen16ind14 to Trajectory with score 281.2765
+2025-10-09 15:21:13,182 pybnf.algorithms INFO     MainProcess Adding Result gen16ind13 to Trajectory with score 281.0926
+2025-10-09 15:21:13,205 pybnf.algorithms INFO     MainProcess Adding Result gen16ind12 to Trajectory with score 281.2228
+2025-10-09 15:21:13,217 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:13,217 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:13,748 pybnf.algorithms INFO     MainProcess Adding Result gen17ind4 to Trajectory with score 281.2120
+2025-10-09 15:21:13,753 pybnf.algorithms INFO     MainProcess Adding Result gen17ind1 to Trajectory with score 281.0051
+2025-10-09 15:21:13,753 pybnf.algorithms INFO     MainProcess Adding Result gen17ind5 to Trajectory with score 280.2112
+2025-10-09 15:21:13,754 pybnf.algorithms INFO     MainProcess Adding Result gen17ind3 to Trajectory with score 281.0947
+2025-10-09 15:21:13,782 pybnf.algorithms INFO     MainProcess Adding Result gen17ind2 to Trajectory with score 280.8592
+2025-10-09 15:21:13,795 pybnf.algorithms INFO     MainProcess Adding Result gen17ind0 to Trajectory with score 281.3842
+2025-10-09 15:21:14,146 pybnf.algorithms INFO     MainProcess Adding Result gen17ind11 to Trajectory with score 281.2203
+2025-10-09 15:21:14,194 pybnf.algorithms INFO     MainProcess Adding Result gen17ind9 to Trajectory with score 280.6190
+2025-10-09 15:21:14,210 pybnf.algorithms INFO     MainProcess Adding Result gen17ind7 to Trajectory with score 281.7892
+2025-10-09 15:21:14,216 pybnf.algorithms INFO     MainProcess Adding Result gen17ind8 to Trajectory with score 281.1152
+2025-10-09 15:21:14,219 pybnf.algorithms INFO     MainProcess Adding Result gen17ind10 to Trajectory with score 281.0069
+2025-10-09 15:21:14,232 pybnf.algorithms INFO     MainProcess Adding Result gen17ind6 to Trajectory with score 281.4329
+2025-10-09 15:21:14,519 pybnf.algorithms INFO     MainProcess Adding Result gen17ind14 to Trajectory with score 281.3012
+2025-10-09 15:21:14,533 pybnf.algorithms INFO     MainProcess Adding Result gen17ind13 to Trajectory with score 280.6014
+2025-10-09 15:21:14,545 pybnf.algorithms INFO     MainProcess Adding Result gen17ind12 to Trajectory with score 281.1455
+2025-10-09 15:21:14,555 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:14,555 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:15,024 pybnf.algorithms INFO     MainProcess Adding Result gen18ind5 to Trajectory with score 280.6373
+2025-10-09 15:21:15,064 pybnf.algorithms INFO     MainProcess Adding Result gen18ind0 to Trajectory with score 280.8592
+2025-10-09 15:21:15,092 pybnf.algorithms INFO     MainProcess Adding Result gen18ind3 to Trajectory with score 281.2047
+2025-10-09 15:21:15,096 pybnf.algorithms INFO     MainProcess Adding Result gen18ind2 to Trajectory with score 280.7706
+2025-10-09 15:21:15,110 pybnf.algorithms INFO     MainProcess Adding Result gen18ind1 to Trajectory with score 280.3837
+2025-10-09 15:21:15,123 pybnf.algorithms INFO     MainProcess Adding Result gen18ind4 to Trajectory with score 281.2546
+2025-10-09 15:21:15,483 pybnf.algorithms INFO     MainProcess Adding Result gen18ind7 to Trajectory with score 280.6096
+2025-10-09 15:21:15,484 pybnf.algorithms INFO     MainProcess Adding Result gen18ind11 to Trajectory with score 281.2701
+2025-10-09 15:21:15,512 pybnf.algorithms INFO     MainProcess Adding Result gen18ind6 to Trajectory with score 281.3294
+2025-10-09 15:21:15,546 pybnf.algorithms INFO     MainProcess Adding Result gen18ind8 to Trajectory with score 281.1171
+2025-10-09 15:21:15,555 pybnf.algorithms INFO     MainProcess Adding Result gen18ind9 to Trajectory with score 281.7856
+2025-10-09 15:21:15,571 pybnf.algorithms INFO     MainProcess Adding Result gen18ind10 to Trajectory with score 280.3223
+2025-10-09 15:21:15,816 pybnf.algorithms INFO     MainProcess Adding Result gen18ind12 to Trajectory with score 280.2496
+2025-10-09 15:21:15,849 pybnf.algorithms INFO     MainProcess Adding Result gen18ind13 to Trajectory with score 281.1105
+2025-10-09 15:21:15,869 pybnf.algorithms INFO     MainProcess Adding Result gen18ind14 to Trajectory with score 280.6190
+2025-10-09 15:21:15,880 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:15,880 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:16,384 pybnf.algorithms INFO     MainProcess Adding Result gen19ind0 to Trajectory with score 281.3596
+2025-10-09 15:21:16,390 pybnf.algorithms INFO     MainProcess Adding Result gen19ind4 to Trajectory with score 280.3855
+2025-10-09 15:21:16,390 pybnf.algorithms INFO     MainProcess Adding Result gen19ind5 to Trajectory with score 281.0496
+2025-10-09 15:21:16,426 pybnf.algorithms INFO     MainProcess Adding Result gen19ind1 to Trajectory with score 281.0739
+2025-10-09 15:21:16,427 pybnf.algorithms INFO     MainProcess Adding Result gen19ind3 to Trajectory with score 280.6196
+2025-10-09 15:21:16,433 pybnf.algorithms INFO     MainProcess Adding Result gen19ind2 to Trajectory with score 280.8087
+2025-10-09 15:21:16,828 pybnf.algorithms INFO     MainProcess Adding Result gen19ind6 to Trajectory with score 281.0344
+2025-10-09 15:21:16,836 pybnf.algorithms INFO     MainProcess Adding Result gen19ind10 to Trajectory with score 281.4971
+2025-10-09 15:21:16,849 pybnf.algorithms INFO     MainProcess Adding Result gen19ind11 to Trajectory with score 281.0347
+2025-10-09 15:21:16,862 pybnf.algorithms INFO     MainProcess Adding Result gen19ind7 to Trajectory with score 280.6068
+2025-10-09 15:21:16,873 pybnf.algorithms INFO     MainProcess Adding Result gen19ind8 to Trajectory with score 281.0115
+2025-10-09 15:21:16,873 pybnf.algorithms INFO     MainProcess Adding Result gen19ind9 to Trajectory with score 280.3725
+2025-10-09 15:21:17,153 pybnf.algorithms INFO     MainProcess Adding Result gen19ind13 to Trajectory with score 280.9553
+2025-10-09 15:21:17,155 pybnf.algorithms INFO     MainProcess Adding Result gen19ind12 to Trajectory with score 281.3497
+2025-10-09 15:21:17,167 pybnf.algorithms INFO     MainProcess Adding Result gen19ind14 to Trajectory with score 281.1499
+2025-10-09 15:21:17,167 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_0.txt
+2025-10-09 15:21:17,171 pybnf.algorithms INFO     MainProcess Island 0 completed 20 iterations
+2025-10-09 15:21:17,187 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:17,188 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:17,644 pybnf.algorithms INFO     MainProcess Adding Result gen20ind1 to Trajectory with score 280.7851
+2025-10-09 15:21:17,651 pybnf.algorithms INFO     MainProcess Adding Result gen20ind0 to Trajectory with score 280.3578
+2025-10-09 15:21:17,660 pybnf.algorithms INFO     MainProcess Adding Result gen20ind3 to Trajectory with score 280.1564
+2025-10-09 15:21:17,671 pybnf.algorithms INFO     MainProcess Adding Result gen20ind2 to Trajectory with score 280.9822
+2025-10-09 15:21:17,728 pybnf.algorithms INFO     MainProcess Adding Result gen20ind4 to Trajectory with score 280.2564
+2025-10-09 15:21:17,733 pybnf.algorithms INFO     MainProcess Adding Result gen20ind5 to Trajectory with score 280.9069
+2025-10-09 15:21:18,108 pybnf.algorithms INFO     MainProcess Adding Result gen20ind6 to Trajectory with score 280.4209
+2025-10-09 15:21:18,109 pybnf.algorithms INFO     MainProcess Adding Result gen20ind7 to Trajectory with score 280.5960
+2025-10-09 15:21:18,122 pybnf.algorithms INFO     MainProcess Adding Result gen20ind9 to Trajectory with score 280.7030
+2025-10-09 15:21:18,127 pybnf.algorithms INFO     MainProcess Adding Result gen20ind8 to Trajectory with score 280.2525
+2025-10-09 15:21:18,164 pybnf.algorithms INFO     MainProcess Adding Result gen20ind10 to Trajectory with score 281.0690
+2025-10-09 15:21:18,172 pybnf.algorithms INFO     MainProcess Adding Result gen20ind11 to Trajectory with score 279.7578
+2025-10-09 15:21:18,480 pybnf.algorithms INFO     MainProcess Adding Result gen20ind12 to Trajectory with score 281.0908
+2025-10-09 15:21:18,482 pybnf.algorithms INFO     MainProcess Adding Result gen20ind13 to Trajectory with score 280.4210
+2025-10-09 15:21:18,491 pybnf.algorithms INFO     MainProcess Adding Result gen20ind14 to Trajectory with score 280.2935
+2025-10-09 15:21:18,501 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:18,501 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:19,013 pybnf.algorithms INFO     MainProcess Adding Result gen21ind2 to Trajectory with score 280.2561
+2025-10-09 15:21:19,035 pybnf.algorithms INFO     MainProcess Adding Result gen21ind3 to Trajectory with score 280.5132
+2025-10-09 15:21:19,038 pybnf.algorithms INFO     MainProcess Adding Result gen21ind4 to Trajectory with score 280.3194
+2025-10-09 15:21:19,068 pybnf.algorithms INFO     MainProcess Adding Result gen21ind0 to Trajectory with score 280.3780
+2025-10-09 15:21:19,069 pybnf.algorithms INFO     MainProcess Adding Result gen21ind1 to Trajectory with score 280.4742
+2025-10-09 15:21:19,081 pybnf.algorithms INFO     MainProcess Adding Result gen21ind5 to Trajectory with score 280.0023
+2025-10-09 15:21:19,444 pybnf.algorithms INFO     MainProcess Adding Result gen21ind11 to Trajectory with score 279.6932
+2025-10-09 15:21:19,481 pybnf.algorithms INFO     MainProcess Adding Result gen21ind8 to Trajectory with score 280.1438
+2025-10-09 15:21:19,483 pybnf.algorithms INFO     MainProcess Adding Result gen21ind9 to Trajectory with score 280.1903
+2025-10-09 15:21:19,494 pybnf.algorithms INFO     MainProcess Adding Result gen21ind6 to Trajectory with score 280.2618
+2025-10-09 15:21:19,496 pybnf.algorithms INFO     MainProcess Adding Result gen21ind10 to Trajectory with score 280.4301
+2025-10-09 15:21:19,510 pybnf.algorithms INFO     MainProcess Adding Result gen21ind7 to Trajectory with score 280.7050
+2025-10-09 15:21:19,798 pybnf.algorithms INFO     MainProcess Adding Result gen21ind13 to Trajectory with score 280.3253
+2025-10-09 15:21:19,801 pybnf.algorithms INFO     MainProcess Adding Result gen21ind12 to Trajectory with score 280.3538
+2025-10-09 15:21:19,859 pybnf.algorithms INFO     MainProcess Adding Result gen21ind14 to Trajectory with score 280.3716
+2025-10-09 15:21:19,869 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:19,869 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:20,336 pybnf.algorithms INFO     MainProcess Adding Result gen22ind0 to Trajectory with score 280.1904
+2025-10-09 15:21:20,376 pybnf.algorithms INFO     MainProcess Adding Result gen22ind1 to Trajectory with score 280.4613
+2025-10-09 15:21:20,393 pybnf.algorithms INFO     MainProcess Adding Result gen22ind4 to Trajectory with score 280.2496
+2025-10-09 15:21:20,396 pybnf.algorithms INFO     MainProcess Adding Result gen22ind3 to Trajectory with score 280.5884
+2025-10-09 15:21:20,396 pybnf.algorithms INFO     MainProcess Adding Result gen22ind5 to Trajectory with score 280.5332
+2025-10-09 15:21:20,402 pybnf.algorithms INFO     MainProcess Adding Result gen22ind2 to Trajectory with score 280.6287
+2025-10-09 15:21:20,779 pybnf.algorithms INFO     MainProcess Adding Result gen22ind6 to Trajectory with score 280.2492
+2025-10-09 15:21:20,788 pybnf.algorithms INFO     MainProcess Adding Result gen22ind9 to Trajectory with score 279.6932
+2025-10-09 15:21:20,823 pybnf.algorithms INFO     MainProcess Adding Result gen22ind7 to Trajectory with score 279.7911
+2025-10-09 15:21:20,832 pybnf.algorithms INFO     MainProcess Adding Result gen22ind10 to Trajectory with score 280.4167
+2025-10-09 15:21:20,837 pybnf.algorithms INFO     MainProcess Adding Result gen22ind11 to Trajectory with score 279.7534
+2025-10-09 15:21:20,840 pybnf.algorithms INFO     MainProcess Adding Result gen22ind8 to Trajectory with score 280.0252
+2025-10-09 15:21:21,109 pybnf.algorithms INFO     MainProcess Adding Result gen22ind12 to Trajectory with score 280.0440
+2025-10-09 15:21:21,136 pybnf.algorithms INFO     MainProcess Adding Result gen22ind13 to Trajectory with score 280.3746
+2025-10-09 15:21:21,150 pybnf.algorithms INFO     MainProcess Adding Result gen22ind14 to Trajectory with score 280.3465
+2025-10-09 15:21:21,160 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:21,160 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:21,669 pybnf.algorithms INFO     MainProcess Adding Result gen23ind3 to Trajectory with score 280.2828
+2025-10-09 15:21:21,692 pybnf.algorithms INFO     MainProcess Adding Result gen23ind4 to Trajectory with score 279.9453
+2025-10-09 15:21:21,692 pybnf.algorithms INFO     MainProcess Adding Result gen23ind5 to Trajectory with score 280.4444
+2025-10-09 15:21:21,693 pybnf.algorithms INFO     MainProcess Adding Result gen23ind2 to Trajectory with score 280.0784
+2025-10-09 15:21:21,694 pybnf.algorithms INFO     MainProcess Adding Result gen23ind1 to Trajectory with score 280.1388
+2025-10-09 15:21:21,750 pybnf.algorithms INFO     MainProcess Adding Result gen23ind0 to Trajectory with score 280.3223
+2025-10-09 15:21:22,078 pybnf.algorithms INFO     MainProcess Adding Result gen23ind11 to Trajectory with score 280.0317
+2025-10-09 15:21:22,116 pybnf.algorithms INFO     MainProcess Adding Result gen23ind9 to Trajectory with score 279.7671
+2025-10-09 15:21:22,129 pybnf.algorithms INFO     MainProcess Adding Result gen23ind8 to Trajectory with score 280.2861
+2025-10-09 15:21:22,139 pybnf.algorithms INFO     MainProcess Adding Result gen23ind10 to Trajectory with score 280.3229
+2025-10-09 15:21:22,141 pybnf.algorithms INFO     MainProcess Adding Result gen23ind7 to Trajectory with score 280.4356
+2025-10-09 15:21:22,178 pybnf.algorithms INFO     MainProcess Adding Result gen23ind6 to Trajectory with score 279.6956
+2025-10-09 15:21:22,441 pybnf.algorithms INFO     MainProcess Adding Result gen23ind12 to Trajectory with score 280.4071
+2025-10-09 15:21:22,452 pybnf.algorithms INFO     MainProcess Adding Result gen23ind14 to Trajectory with score 280.1480
+2025-10-09 15:21:22,465 pybnf.algorithms INFO     MainProcess Adding Result gen23ind13 to Trajectory with score 280.2525
+2025-10-09 15:21:22,479 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:22,479 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:22,944 pybnf.algorithms INFO     MainProcess Adding Result gen24ind1 to Trajectory with score 280.0883
+2025-10-09 15:21:22,955 pybnf.algorithms INFO     MainProcess Adding Result gen24ind0 to Trajectory with score 279.8503
+2025-10-09 15:21:22,995 pybnf.algorithms INFO     MainProcess Adding Result gen24ind3 to Trajectory with score 279.9860
+2025-10-09 15:21:23,009 pybnf.algorithms INFO     MainProcess Adding Result gen24ind4 to Trajectory with score 280.4130
+2025-10-09 15:21:23,022 pybnf.algorithms INFO     MainProcess Adding Result gen24ind5 to Trajectory with score 280.1564
+2025-10-09 15:21:23,091 pybnf.algorithms INFO     MainProcess Adding Result gen24ind2 to Trajectory with score 280.0252
+2025-10-09 15:21:23,392 pybnf.algorithms INFO     MainProcess Adding Result gen24ind7 to Trajectory with score 279.9984
+2025-10-09 15:21:23,408 pybnf.algorithms INFO     MainProcess Adding Result gen24ind9 to Trajectory with score 280.1654
+2025-10-09 15:21:23,417 pybnf.algorithms INFO     MainProcess Adding Result gen24ind10 to Trajectory with score 279.9160
+2025-10-09 15:21:23,420 pybnf.algorithms INFO     MainProcess Adding Result gen24ind6 to Trajectory with score 280.2198
+2025-10-09 15:21:23,430 pybnf.algorithms INFO     MainProcess Adding Result gen24ind11 to Trajectory with score 280.1386
+2025-10-09 15:21:23,529 pybnf.algorithms INFO     MainProcess Adding Result gen24ind8 to Trajectory with score 280.0383
+2025-10-09 15:21:23,767 pybnf.algorithms INFO     MainProcess Adding Result gen24ind12 to Trajectory with score 279.5416
+2025-10-09 15:21:23,786 pybnf.algorithms INFO     MainProcess Adding Result gen24ind14 to Trajectory with score 280.4984
+2025-10-09 15:21:23,794 pybnf.algorithms INFO     MainProcess Adding Result gen24ind13 to Trajectory with score 279.7705
+2025-10-09 15:21:23,811 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:23,812 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:24,257 pybnf.algorithms INFO     MainProcess Adding Result gen25ind2 to Trajectory with score 280.0381
+2025-10-09 15:21:24,287 pybnf.algorithms INFO     MainProcess Adding Result gen25ind1 to Trajectory with score 280.4861
+2025-10-09 15:21:24,291 pybnf.algorithms INFO     MainProcess Adding Result gen25ind0 to Trajectory with score 279.7705
+2025-10-09 15:21:24,309 pybnf.algorithms INFO     MainProcess Adding Result gen25ind3 to Trajectory with score 279.8782
+2025-10-09 15:21:24,317 pybnf.algorithms INFO     MainProcess Adding Result gen25ind4 to Trajectory with score 279.8727
+2025-10-09 15:21:24,337 pybnf.algorithms INFO     MainProcess Adding Result gen25ind5 to Trajectory with score 280.1769
+2025-10-09 15:21:24,680 pybnf.algorithms INFO     MainProcess Adding Result gen25ind7 to Trajectory with score 280.1296
+2025-10-09 15:21:24,704 pybnf.algorithms INFO     MainProcess Adding Result gen25ind8 to Trajectory with score 280.0280
+2025-10-09 15:21:24,735 pybnf.algorithms INFO     MainProcess Adding Result gen25ind6 to Trajectory with score 279.8995
+2025-10-09 15:21:24,772 pybnf.algorithms INFO     MainProcess Adding Result gen25ind9 to Trajectory with score 279.7394
+2025-10-09 15:21:24,773 pybnf.algorithms INFO     MainProcess Adding Result gen25ind10 to Trajectory with score 279.7705
+2025-10-09 15:21:24,775 pybnf.algorithms INFO     MainProcess Adding Result gen25ind11 to Trajectory with score 279.9449
+2025-10-09 15:21:25,006 pybnf.algorithms INFO     MainProcess Adding Result gen25ind13 to Trajectory with score 280.0252
+2025-10-09 15:21:25,054 pybnf.algorithms INFO     MainProcess Adding Result gen25ind14 to Trajectory with score 280.2639
+2025-10-09 15:21:25,073 pybnf.algorithms INFO     MainProcess Adding Result gen25ind12 to Trajectory with score 280.0741
+2025-10-09 15:21:25,095 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:25,107 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:25,539 pybnf.algorithms INFO     MainProcess Adding Result gen26ind0 to Trajectory with score 279.7195
+2025-10-09 15:21:25,540 pybnf.algorithms INFO     MainProcess Adding Result gen26ind3 to Trajectory with score 280.1099
+2025-10-09 15:21:25,586 pybnf.algorithms INFO     MainProcess Adding Result gen26ind2 to Trajectory with score 280.1522
+2025-10-09 15:21:25,601 pybnf.algorithms INFO     MainProcess Adding Result gen26ind5 to Trajectory with score 279.4224
+2025-10-09 15:21:25,615 pybnf.algorithms INFO     MainProcess Adding Result gen26ind1 to Trajectory with score 279.5757
+2025-10-09 15:21:25,617 pybnf.algorithms INFO     MainProcess Adding Result gen26ind4 to Trajectory with score 279.7705
+2025-10-09 15:21:25,986 pybnf.algorithms INFO     MainProcess Adding Result gen26ind9 to Trajectory with score 280.0252
+2025-10-09 15:21:25,988 pybnf.algorithms INFO     MainProcess Adding Result gen26ind6 to Trajectory with score 280.2378
+2025-10-09 15:21:26,050 pybnf.algorithms INFO     MainProcess Adding Result gen26ind11 to Trajectory with score 279.7835
+2025-10-09 15:21:26,063 pybnf.algorithms INFO     MainProcess Adding Result gen26ind10 to Trajectory with score 280.0301
+2025-10-09 15:21:26,067 pybnf.algorithms INFO     MainProcess Adding Result gen26ind7 to Trajectory with score 280.0924
+2025-10-09 15:21:26,077 pybnf.algorithms INFO     MainProcess Adding Result gen26ind8 to Trajectory with score 280.3387
+2025-10-09 15:21:26,361 pybnf.algorithms INFO     MainProcess Adding Result gen26ind12 to Trajectory with score 279.6739
+2025-10-09 15:21:26,363 pybnf.algorithms INFO     MainProcess Adding Result gen26ind13 to Trajectory with score 279.6432
+2025-10-09 15:21:26,399 pybnf.algorithms INFO     MainProcess Adding Result gen26ind14 to Trajectory with score 279.8891
+2025-10-09 15:21:26,408 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:26,409 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:26,914 pybnf.algorithms INFO     MainProcess Adding Result gen27ind0 to Trajectory with score 279.9463
+2025-10-09 15:21:26,923 pybnf.algorithms INFO     MainProcess Adding Result gen27ind4 to Trajectory with score 279.7844
+2025-10-09 15:21:26,925 pybnf.algorithms INFO     MainProcess Adding Result gen27ind5 to Trajectory with score 280.0425
+2025-10-09 15:21:26,931 pybnf.algorithms INFO     MainProcess Adding Result gen27ind2 to Trajectory with score 279.3702
+2025-10-09 15:21:26,941 pybnf.algorithms INFO     MainProcess Adding Result gen27ind3 to Trajectory with score 279.4670
+2025-10-09 15:21:26,987 pybnf.algorithms INFO     MainProcess Adding Result gen27ind1 to Trajectory with score 279.3136
+2025-10-09 15:21:27,359 pybnf.algorithms INFO     MainProcess Adding Result gen27ind6 to Trajectory with score 280.0658
+2025-10-09 15:21:27,369 pybnf.algorithms INFO     MainProcess Adding Result gen27ind8 to Trajectory with score 280.0314
+2025-10-09 15:21:27,386 pybnf.algorithms INFO     MainProcess Adding Result gen27ind10 to Trajectory with score 279.7409
+2025-10-09 15:21:27,387 pybnf.algorithms INFO     MainProcess Adding Result gen27ind11 to Trajectory with score 279.6678
+2025-10-09 15:21:27,395 pybnf.algorithms INFO     MainProcess Adding Result gen27ind9 to Trajectory with score 279.7688
+2025-10-09 15:21:27,424 pybnf.algorithms INFO     MainProcess Adding Result gen27ind7 to Trajectory with score 279.5026
+2025-10-09 15:21:27,679 pybnf.algorithms INFO     MainProcess Adding Result gen27ind12 to Trajectory with score 280.0981
+2025-10-09 15:21:27,704 pybnf.algorithms INFO     MainProcess Adding Result gen27ind14 to Trajectory with score 279.5672
+2025-10-09 15:21:27,705 pybnf.algorithms INFO     MainProcess Adding Result gen27ind13 to Trajectory with score 279.4702
+2025-10-09 15:21:27,716 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:27,716 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:28,181 pybnf.algorithms INFO     MainProcess Adding Result gen28ind3 to Trajectory with score 280.0186
+2025-10-09 15:21:28,235 pybnf.algorithms INFO     MainProcess Adding Result gen28ind2 to Trajectory with score 279.5514
+2025-10-09 15:21:28,245 pybnf.algorithms INFO     MainProcess Adding Result gen28ind5 to Trajectory with score 279.6241
+2025-10-09 15:21:28,246 pybnf.algorithms INFO     MainProcess Adding Result gen28ind4 to Trajectory with score 279.5046
+2025-10-09 15:21:28,247 pybnf.algorithms INFO     MainProcess Adding Result gen28ind1 to Trajectory with score 279.3130
+2025-10-09 15:21:28,263 pybnf.algorithms INFO     MainProcess Adding Result gen28ind0 to Trajectory with score 279.7092
+2025-10-09 15:21:28,630 pybnf.algorithms INFO     MainProcess Adding Result gen28ind8 to Trajectory with score 280.0208
+2025-10-09 15:21:28,637 pybnf.algorithms INFO     MainProcess Adding Result gen28ind9 to Trajectory with score 279.3094
+2025-10-09 15:21:28,701 pybnf.algorithms INFO     MainProcess Adding Result gen28ind11 to Trajectory with score 279.2178
+2025-10-09 15:21:28,731 pybnf.algorithms INFO     MainProcess Adding Result gen28ind10 to Trajectory with score 280.0978
+2025-10-09 15:21:28,746 pybnf.algorithms INFO     MainProcess Adding Result gen28ind6 to Trajectory with score 279.4176
+2025-10-09 15:21:28,752 pybnf.algorithms INFO     MainProcess Adding Result gen28ind7 to Trajectory with score 279.2719
+2025-10-09 15:21:29,002 pybnf.algorithms INFO     MainProcess Adding Result gen28ind13 to Trajectory with score 279.5416
+2025-10-09 15:21:29,006 pybnf.algorithms INFO     MainProcess Adding Result gen28ind12 to Trajectory with score 279.5979
+2025-10-09 15:21:29,026 pybnf.algorithms INFO     MainProcess Adding Result gen28ind14 to Trajectory with score 279.6833
+2025-10-09 15:21:29,035 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2025-10-09 15:21:29,035 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_backup.txt
+2025-10-09 15:21:29,494 pybnf.algorithms INFO     MainProcess Adding Result gen29ind2 to Trajectory with score 280.0164
+2025-10-09 15:21:29,544 pybnf.algorithms INFO     MainProcess Adding Result gen29ind4 to Trajectory with score 279.2340
+2025-10-09 15:21:29,571 pybnf.algorithms INFO     MainProcess Adding Result gen29ind1 to Trajectory with score 279.4700
+2025-10-09 15:21:29,574 pybnf.algorithms INFO     MainProcess Adding Result gen29ind3 to Trajectory with score 280.1792
+2025-10-09 15:21:29,582 pybnf.algorithms INFO     MainProcess Adding Result gen29ind5 to Trajectory with score 279.5355
+2025-10-09 15:21:29,615 pybnf.algorithms INFO     MainProcess Adding Result gen29ind0 to Trajectory with score 279.2958
+2025-10-09 15:21:29,939 pybnf.algorithms INFO     MainProcess Adding Result gen29ind8 to Trajectory with score 279.7331
+2025-10-09 15:21:29,959 pybnf.algorithms INFO     MainProcess Adding Result gen29ind10 to Trajectory with score 279.7090
+2025-10-09 15:21:29,968 pybnf.algorithms INFO     MainProcess Adding Result gen29ind9 to Trajectory with score 279.6904
+2025-10-09 15:21:30,020 pybnf.algorithms INFO     MainProcess Adding Result gen29ind7 to Trajectory with score 279.4302
+2025-10-09 15:21:30,029 pybnf.algorithms INFO     MainProcess Adding Result gen29ind11 to Trajectory with score 279.5312
+2025-10-09 15:21:30,042 pybnf.algorithms INFO     MainProcess Adding Result gen29ind6 to Trajectory with score 279.3091
+2025-10-09 15:21:30,273 pybnf.algorithms INFO     MainProcess Adding Result gen29ind13 to Trajectory with score 279.4276
+2025-10-09 15:21:30,316 pybnf.algorithms INFO     MainProcess Adding Result gen29ind12 to Trajectory with score 279.4710
+2025-10-09 15:21:30,344 pybnf.algorithms INFO     MainProcess Adding Result gen29ind14 to Trajectory with score 279.5264
+2025-10-09 15:21:30,345 pybnf.algorithms INFO     MainProcess Stop criterion satisfied with objective function value of 279.2178364321476
+2025-10-09 15:21:30,345 pybnf.algorithms INFO     MainProcess Cancelling 0 pending jobs
+2025-10-09 15:21:30,345 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results/sorted_params_final.txt
+2025-10-09 15:21:30,350 pybnf.algorithms INFO     MainProcess Copying simulation results from best fit parameter set to Results/ folder
+2025-10-09 15:21:30,350 pybnf.algorithms INFO     MainProcess Renamed pickled algorithm backup to alg_finished.bp
+2025-10-09 15:21:30,374 pybnf.algorithms INFO     MainProcess Fitting complete
+2025-10-09 15:21:30,375 pybnf.cluster   INFO     MainProcess Closing client
+2025-10-09 15:21:30,389 pybnf.pybnf     INFO     MainProcess Total fitting time: 0:00:50

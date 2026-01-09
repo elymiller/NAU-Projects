@@ -1,0 +1,18 @@
+2025-10-09 17:11:14,662 pybnf.pybnf     INFO     MainProcess Running PyBNF v1.1.9
+2025-10-09 17:11:14,662 pybnf.pybnf     INFO     MainProcess Loading configuration file: Arizona.conf
+2025-10-09 17:11:14,765 pybnf.config    WARNING  MainProcess Ignoring unused key sample_every for fitting algorithm de
+2025-10-09 17:11:14,765 pybnf.config    WARNING  MainProcess Ignoring unused key step_size for fitting algorithm de
+2025-10-09 17:11:14,765 pybnf.config    WARNING  MainProcess Ignoring unused key burn_in for fitting algorithm de
+2025-10-09 17:11:14,765 pybnf.config    WARNING  MainProcess Ignoring unused key adaptive for fitting algorithm de
+2025-10-09 17:11:14,767 pybnf.config    INFO     MainProcess Checking to make sure bng_command is appropriately set
+2025-10-09 17:11:15,053 pybnf.config    INFO     MainProcess Loaded variables
+2025-10-09 17:11:15,054 pybnf.pybnf     INFO     MainProcess Output directory already exists... querying user for overwrite permission
+2025-10-09 17:11:19,280 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Results
+2025-10-09 17:11:19,281 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Initialize
+2025-10-09 17:11:19,282 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/FailedSimLogs
+2025-10-09 17:11:19,282 pybnf.pybnf     INFO     MainProcess Deleted old file /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/alg_finished.bp
+2025-10-09 17:11:19,546 pybnf.algorithms ERROR    MainProcess Command ['/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/bionetgen/bng-mac/BNG2.pl', 'Arizona_gen_net.bngl'] failed in directory /Users/elymiller/Desktop/2025_NAU_FLU/current_job/results/Arizona/Initialize
+2025-10-09 17:11:19,546 pybnf.algorithms ERROR    MainProcess None
+2025-10-09 17:11:19,546 root            INFO     MainProcess No cluster to tear down
+2025-10-09 17:11:19,546 pybnf.pybnf     INFO     MainProcess Fitting unsuccessful.  Attempting cleanup
+2025-10-09 17:11:19,547 pybnf.pybnf     INFO     MainProcess Total fitting time: 0:00:04
